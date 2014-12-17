@@ -8,7 +8,7 @@ Simple utility to take a [Gift](https://github.com/notatestuser/gift) repository
 
 # Usage
 
-You must have first instantiated an `Gift` repository. Passing in an array of `Commits`, will yield the tree, recursively, for those commits. The result will be one concatenated list.
+You must have first instantiated an `Gift` repository. Passing in an array of `Commits`, will yield the tree, recursively, for those commits. The result will be one concatenated list. This will add a `path` field which has the full path.
 
 Example:
 
