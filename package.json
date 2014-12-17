@@ -1,0 +1,32 @@
+{
+  "name": "gift-recursive-tree",
+  "version": "1.0.0",
+  "description": "Simple utility to take a Gift repository and get a recursive tree",
+  "main": "./lib/index",
+  "scripts": {
+    "test": "mocha --compilers coffee:'./node_modules/coffee-script/lib/coffee-script/register'",
+    "prepublish": "./node_modules/.bin/coffee -o lib -c src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shamoons/gift-blob-parser.git"
+  },
+  "keywords": [
+    "git",
+    "gift",
+    "blob",
+    "recursive",
+    "tree"
+  ],
+  "author": "Shamoon Siddiqui",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shamoons/gift-blob-parser/issues"
+  },
+  "homepage": "https://github.com/shamoons/gift-blob-parser",
+  "devDependencies": {
+    "coffee-script": "^1.8.0",
+    "gift": "^0.5.0",
+    "mocha": "^2.0.1"
+  }
+}

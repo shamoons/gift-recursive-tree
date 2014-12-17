@@ -19,5 +19,5 @@ Example:
       repo = _repo
 
       repo.current_commit (err, _commit) ->
-        giftRecursiveTree.getTree [_commit], (err, tree) ->
+        giftRecursiveTree.getTree repo, [_commit], (err, tree) ->
           console.log tree
