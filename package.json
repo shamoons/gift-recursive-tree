@@ -1,6 +1,6 @@
 {
   "name": "gift-recursive-tree",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Simple utility to take a Gift repository and get a recursive tree",
   "main": "./lib/index",
   "scripts": {
