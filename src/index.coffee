@@ -16,8 +16,6 @@ module.exports =
       if not commit?.repo or not commit?.id or not commit?.tree
         return getTreeCb new Error 'All commits are not valid gift commit objects'
 
-    # commits = commits[0
-    console.log commits
     async.concat commits, (gitCommit, concatCb) ->
       gitCommit.tree().contents (err, gitTreeContents) ->
         parseTree '', gitTreeContents, (err, recursiveTree) ->
