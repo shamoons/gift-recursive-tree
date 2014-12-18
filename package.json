@@ -1,11 +1,11 @@
 {
   "name": "gift-recursive-tree",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Simple utility to take a Gift repository and get a recursive tree",
   "main": "./lib/index",
   "scripts": {
     "test": "mocha --compilers coffee:'./node_modules/coffee-script/lib/coffee-script/register'",
-    "prepublish": "./node_modules/.bin/coffee -o lib -c src"
+    "prepublish": "coffee -o lib -c src"
   },
   "repository": {
     "type": "git",
